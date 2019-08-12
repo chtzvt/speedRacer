@@ -14,7 +14,7 @@ SpeedRacer monitors sensors mounted on your Pinewood Derby track in order to det
 
 ## Installing and using SpeedRacer
 
-Step one is to prepare your [Raspberry Pi Model B Version 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) by flashing the [SpeedRacer system image](https://cdn.ctis.me/file/ctisme-cdn/speedracer/SpeedRacer1.0.zip) to an SD card. You'll need an SD card with at least 2GB of storage. To do this, extract the image file from System Images/SpeedRacer1.0.zip and refer to the [Raspberry Pi OS Installation Guide](https://www.raspberrypi.org/documentation/installation/installing-images/)
+Step one is to prepare your [Raspberry Pi Model B Version 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) by flashing the [SpeedRacer system image](https://cdn.ctis.me/file/ctisme-cdn/project-assets/speedracer/SpeedRacer1.0.zip) to an SD card. You'll need an SD card with at least 2GB of storage. To do this, extract the image file from System Images/SpeedRacer1.0.zip and refer to the [Raspberry Pi OS Installation Guide](https://www.raspberrypi.org/documentation/installation/installing-images/)
 
 Step two is to wire the appropriate sensors to your track, and connect them to the corresponding pins on your Pi. You may want to refer to the Fritzing diagrams in the Wiring Schematics directory before doing this. Essentially, you'll need to wire it like so: 
 
