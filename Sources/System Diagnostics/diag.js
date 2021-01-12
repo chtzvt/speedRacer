@@ -1,4 +1,4 @@
-var raspi = require('raspi-io');
+var raspi = require('raspi-io').RaspiIO;
 var five = require('johnny-five');
 var board = new five.Board({io: new raspi()});
 
@@ -55,6 +55,7 @@ var CONFIG = {
 };
 
 board.on("ready", function() {
+  parseConfig();
 
   console.log("Blinking LED");
   CONFIG.LED_INDICATOR.ctl.blink(300);
