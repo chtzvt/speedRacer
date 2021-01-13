@@ -1,5 +1,5 @@
 // WIFI PW is chimchim
-var raspi = require('raspi-io');
+var raspi = require('raspi-io').RaspIO;
 var five = require('johnny-five');
 var board = new five.Board({io: new raspi()});
 var http = require('http');
